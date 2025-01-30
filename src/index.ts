@@ -15,7 +15,7 @@ app.get("/", (Req: Request, Res: Response) => {
         {
             email: "Josepholuolofinte@gmail.com",
             current_datetime: new Date().toISOString(),
-            github_url: "coming soon",
+            github_url: "https://github.com/JosephOluOlofinte/HNG-simple-api",
         }
     );
 });
