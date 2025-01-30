@@ -29,10 +29,10 @@ API DOCUMENTATION
 - Base URL: https://josepholuapi.onrender.com/
 - Endpoint: GET/
 - Request: 
-       - Browser: visit https://josepholuapi.onrender.com/
-       - Postman: make a GET request to [the base URL](https://josepholuapi.onrender.com/) 
-       - CLI: curl -X GET https://josepholuapi.onrender.com/
-- Response:
+     - Browser: visit https://josepholuapi.onrender.com/
+     - Postman: make a GET request to [the base URL](https://josepholuapi.onrender.com/) 
+     - CLI: curl -X GET https://josepholuapi.onrender.com/
+- Response sample:
 
         {
             "email": "Josepholuolofinte@gmail.com",
