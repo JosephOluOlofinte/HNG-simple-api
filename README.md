@@ -3,13 +3,13 @@ HNG PUBLIC API — HNG12 INTERNSHIP TASK
 This is a simple public API developed as part of the HNG12 internship. The API returns the following details in JSON format:
 
 — My registered HNG12 Slack email.
-— The current date and time in SIO 8601 format (UTC)
+— The current date and time in ISO 8601 format (UTC)
 — The GutHub repo URL for this project.
 
 TECH STACK:
 — Language: Typescript
-— Framework: (NodeJS)[https://hng.tech/hire/nodejs-developers]. Express.js
-— Deployment: 
+— Framework: [NodeJS](https://hng.tech/hire/nodejs-developers). Express.js
+— Deployment: Render
 — CORS Handling: enabled
 
 
@@ -26,16 +26,16 @@ cd HNG-simple-api
 
 
 API DOCUMENTATION
-— Base URL: 
+— Base URL: https://josepholuapi.onrender.com/
 — Endpoint: GET/
 — Request: 
-        - Browser: visit 
-        - Postman: make a GET request to the base URL 
-        - CLI: curl -X GET 
-— Response example:
+        - Browser: visit https://josepholuapi.onrender.com/
+        - Postman: make a GET request to [the base URL](https://josepholuapi.onrender.com/) 
+        - CLI: curl -X GET https://josepholuapi.onrender.com/
+— Response:
 
         {
-            "email": "email@email.com",
+            "email": "Josepholuolofinte@gmail.com",
             "current_datetime": "2025-01-30T09:30:00Z",
             "github_url": "https://github.com/JosephOluOlofinte/HNG-simple-api"
         }
