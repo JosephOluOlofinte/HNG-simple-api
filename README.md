@@ -8,7 +8,7 @@ This is a simple public API developed as part of the HNG12 internship. The API r
 
 TECH STACK:
 — Language: Typescript
-— Framework: [NodeJS](https://hng.tech/hire/nodejs-developers). Express.js
+— Framework: [NodeJS](https://hng.tech/hire/nodejs-developers), Express.js
 — Deployment: Render
 — CORS Handling: enabled
 
