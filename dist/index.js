@@ -35,3 +35,4 @@ app.get("/", (Req, Res) => __awaiter(void 0, void 0, void 0, function* () {
     }
 }));
 app.listen(PORT);
+exports.default = app;
