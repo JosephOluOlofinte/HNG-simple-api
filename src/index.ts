@@ -2,6 +2,7 @@
 
 import express, { Request, Response } from "express";
 import cors from "cors";
+import compression from "compression";
 
 
 const app = express();
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 4590;
 
 app.use(cors());
 app.use(express.json());
+app.use(compression());
 
 app.get("/", async (Req: Request, Res: Response) => {
         try {
